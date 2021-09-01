@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://mostafa-1224:mostafa-1224@posts.6psgx.mongodb.net/Posts?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+}
