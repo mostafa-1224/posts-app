@@ -16,7 +16,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/posts', require('./routes/posts'));
 
 // server statics assits
-if (process.env.NODE.ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
   // set static folder
   app.use(express.static('client/build'));
   app.get('*', (req, res) => {
