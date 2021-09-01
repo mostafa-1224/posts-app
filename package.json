@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start":"node app.js",
     "client": "npm start --prefix client",
     "server":"nodemon app",
     "dev":"concurrently \"npm run server \" \"npm run client\"",
